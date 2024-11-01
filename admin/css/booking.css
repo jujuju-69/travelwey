@@ -1,0 +1,16 @@
+
+    .form-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .form-row label {
+        flex-basis: 20%;
+        text-align: left;
+        padding-left: 10px;
+    }
+    .form-row input, .form-row textarea {
+        flex-basis: 70%;
+    }
+
+       

@@ -14,7 +14,7 @@ $destinations = $query->fetch_all(MYSQLI_ASSOC);
 		<div class="container">
 			<div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
 				<div class="col-md-7 ftco-animate">
-					<span class="subheading">Welcome to TravelWey!</span>
+					<span class="subheading">hi Welcome to TravelWey!</span>
 					<h1 class="mb-4">Discover the Amazing Places of Malaysia!</h1>
 					<p class="caps">Experience the Rich Culture and Vibrant Lifestyle of Malaysia. </p>
 				</div>

@@ -54,12 +54,12 @@ $hotels = $hotelsQuery->get_result()->fetch_all(MYSQLI_ASSOC);
             <div class="included-excluded">
                 <div class="included">
                     <ul>
-                        <li><i class="fa fa-check"></i><?php echo $destination['included']; ?></li>
+                        <li><i class="fa fa-check"></i><?php echo $package['included']; ?></li>
                     </ul>
                 </div> 
                 <div class="excluded">
                     <ul>
-                        <li><i class="bi bi-x-square-fill"></i><?php echo $destination['excluded']; ?></li>
+                        <li><i class="bi bi-x-square-fill"></i><?php echo $package['excluded']; ?></li>
                     </ul>
                 </div>
             </div>
